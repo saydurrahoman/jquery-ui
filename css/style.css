@@ -1,0 +1,202 @@
+/* Draggable start */
+#dragg { 
+  width: 200px; 
+  height: 150px; 
+  padding: 10px;
+  background-color: #001494;
+  color: #fff;
+  font-weight: bolder;
+  padding-top: 60px;
+  text-align: center;
+  cursor: pointer;
+
+}
+#draggable{
+  margin: 10px 10px 10px 0;
+  width: 100px; 
+  height: 100px;
+  font-weight: bolder;
+  text-align: center; 
+  padding: 15px; 
+  float: left;
+  color: #fff; 
+  cursor: pointer;
+  background-color: #6f3c03;
+}
+#droppable{
+  margin: 10px;
+  width: 200px; 
+  height: 200px;
+  font-weight: bolder;
+  text-align: center; 
+  padding: 10px;
+  color: #fff;
+  background-color: #001494;
+  float: left; 
+  
+}
+/* Resizable */
+#resizable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 10px;
+  background-color: #003580; 
+}
+#resizable h3 { 
+  margin: 0;
+  text-align: center;
+  color: #fff; 
+   
+}
+
+/* Selectable */
+#feedback { 
+  font-size: 18px; 
+}
+#selectable .ui-selecting { 
+  background: #FECA40; 
+}
+#selectable .ui-selected { 
+  background: #F39814; 
+  color: white; 
+}
+#selectable { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  width: 60%; 
+}
+#selectable li { 
+  margin: 5px; 
+  padding: 15px; 
+  font-size: 18px; 
+} 
+/* Sortable start */
+#sortable { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  width: 60%; 
+}
+#sortable li { 
+  margin: 0 3px 3px 3px; 
+  padding: 10px; 
+  padding-left: 1.5em; 
+  font-size: 18px; 
+}
+#sortable li span { 
+  position: absolute; 
+  margin-left: -1.3em; 
+}
+/* Controlgroup */
+.ui-controlgroup-vertical {
+  width: 150px;
+}
+.ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+.ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+  text-align: center;
+}
+#car-type-button {
+  width: 120px;
+}
+.ui-controlgroup-horizontal .ui-spinner-input {
+  width: 20px;
+}
+/* menu */
+.ui-menu { 
+  width: 150px;
+  margin-bottom: 30px; 
+}
+
+/* selection */
+.select{
+  margin-bottom: 30px;
+}
+fieldset {
+  border: 0;
+}
+label {
+  display: block;
+  margin: 30px 0 0 0;
+}
+.overflow {
+  height: 200px;
+}
+/* slider */
+#slider{
+  width: 500px;
+  background-color: #F39814;
+  color: #001494;
+}
+/* Run Effect */
+
+  
+#effect { 
+  width: 240px;  
+  padding: 10px; 
+  border: 1px solid #000; 
+  background-color: #fff; 
+  color: #333; 
+}
+  
+
+.newClass {
+  text-indent: 40px;
+  letter-spacing: 1px;
+  width: 410px;
+  height: 200px;
+  padding: 30px;
+  margin: 10px;
+  font-size: 18px; 
+}
+.c_button{
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+}
+/* amimate */
+.a_cus{
+  margin: 20px;
+  width: 130px;
+  font-size: 16;
+  height: 40px;
+}
+#effect_2 { 
+  position: relative;
+  width: 240px; 
+  height: 220px; 
+  padding: 5px; 
+  background: #fff; 
+}
+#effect h3 { 
+  margin: 0;
+  text-align: center; 
+  padding: 10px; 
+   
+}
+/* show hide */
+.custom_button {
+  margin-left: 10px; 
+  color: #fff;
+  width: 150px;
+  height: 40px;
+}
+#effect_3 { 
+  margin-bottom: 40px;
+  width: 260px; 
+  height: 170px; 
+  padding: 0; 
+  position: relative; 
+}
+#effect_3 h3 { 
+  padding: 5px;
+  text-align: center; 
+}
+#effectTypes{
+  margin-top: 7px;
+  width: 100px;
+  height: 25px;
+}
+.section_2{
+  margin-bottom: 100px;
+}

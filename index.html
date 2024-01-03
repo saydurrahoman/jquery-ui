@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery UI</title>
+    
+    <!-- style.css linking here -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- icon link -->
+  
+</head>
+<body>
+  
+   <section class="section_1">
+    <div class="container">
+      <div class="row">
+        <!-- Draggable start -->
+      <h2>plugin-1. jQuery UI Draggable - Default functionality</h2>
+      <div id="dragg">
+        <p>Drag me around</p>
+      </div>
+      <br><br><hr>
+      <!-- Droppable-2 -->
+      <h2>plugin-2. jQuery UI Draggable - Default functionality</h2>
+      <div id="draggable">
+        <p>Drag me to my target</p>
+      </div>
+      <div id="droppable">
+        <p>Drop here</p>
+      </div>
+      <br><br><br><br><br><br>
+      <br><br><br><br><hr>
+      <!-- Resizable -->
+      <h2>plugin-3. jQuery UI Resizable - Default functionality</h2>
+      <div id="resizable">
+        <h3>Resizable</h3>
+      </div>
+      <br><br><hr>
+      <!-- Selectable -->
+      <h2>plugin-4. jQuery UI Selectable - Default functionality</h2>
+      <ol id="selectable">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+      </ol>
+      <br><hr>
+      <!-- Sortable -->
+      <h2>plugin-5. jQuery UI Sortable - Default functionality</h2>
+      <ul id="sortable">
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+      </ul>
+      <br><hr>
+      <!-- Accordion -->
+      <h2>plugin-6. jQuery UI Accordion - Default functionality</h2>
+      <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+          <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+          </p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>Section 4</h3>
+        <div>
+          <p>
+          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+          mauris vel est.
+          </p>
+          <p>
+          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+      <br><br>
+      <hr>
+      <!-- Autocomplete -->
+      <h2>plugin-7. jQuery UI Autocomplete - Default functionality</h2>
+      <div class="ui-widget">
+        <label for="tags">Tags: </label>
+        <input id="tags">
+      </div>
+      <br><br><br>
+      <hr>
+      </div>
+     </div>
+   </section>
+   <section class="section_2 ">
+    <div class="container">
+      <div class="row">
+        <h2>plugin-8. jQuery UI Datepicker - Default functionality</h2>
+        <p>Date: <input type="text" id="datepicker"></p>
+        <br><br><br>
+        <hr>
+        <!-- Menu -->
+        <h2>plugin-9. jQuery UI Menu - Default functionality</h2>
+        <ul id="menu">
+          <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+          <li><div>Books</div></li>
+          <li><div>Clothing</div></li>
+          <li><div>Electronics</div>
+            <ul>
+              <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+              <li><div>Car Hifi</div></li>
+              <li><div>Utilities</div></li>
+            </ul>
+          </li>
+          <li><div>Movies</div></li>
+          <li><div>Music</div>
+            <ul>
+              <li><div>Rock</div>
+                <ul>
+                  <li><div>Alternative</div></li>
+                  <li><div>Classic</div></li>
+                </ul>
+              </li>
+              <li><div>Jazz</div>
+                <ul>
+                  <li><div>Freejazz</div></li>
+                  <li><div>Big Band</div></li>
+                  <li><div>Modern</div></li>
+                </ul>
+              </li>
+              <li><div>Pop</div></li>
+            </ul>
+          </li>
+          <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+        </ul>
+        <br><br><br>
+        <hr>
+        <!-- Selection -->
+        <h1>plugin-10. jQuery UI Selectmenu - Default functionality</h1>
+        <div class="select">
+ 
+          <form action="#">
+           
+            <fieldset>
+              <label for="speed">Select a speed</label>
+              <select name="speed" id="speed">
+                <option>Slower</option>
+                <option>Slow</option>
+                <option selected="selected">Medium</option>
+                <option>Fast</option>
+                <option>Faster</option>
+              </select>
+           
+              <label for="files">Select a file</label>
+              <select name="files" id="files">
+                <optgroup label="Scripts">
+                  <option value="jquery">jQuery.js</option>
+                  <option value="jqueryui">ui.jQuery.js</option>
+                </optgroup>
+                <optgroup label="Other files">
+                  <option value="somefile">Some unknown file</option>
+                  <option value="someotherfile">Some other file with a very long option text</option>
+                </optgroup>
+              </select>
+           
+              <label for="number">Select a number</label>
+              <select name="number" id="number">
+                <option>1</option>
+                <option selected="selected">2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+              </select>
+           
+              <label for="salutation">Select a title</label>
+              <select name="salutation" id="salutation">
+                <option disabled selected>Please pick one</option>
+                <option>Mr.</option>
+                <option>Mrs.</option>
+                <option>Dr.</option>
+                <option>Prof.</option>
+                <option>Other</option>
+              </select>
+            </fieldset>
+          </form>
+          </div>
+          <!-- slider start -->
+          <h2>plugin-11. jQuery UI Slider - Default functionality</h2>
+          <div id="slider"></div>
+          <br><br><hr>
+
+          <!-- Run Effect -->
+          <h2>plugin-12. jQuery UI Spinner - Default functionality</h2>
+          <div class="toggler_1">
+            <div id="effect">
+                my name is saydur rahoman, live in rangpur.I'm a graphic web designer.I'm a student.
+            </div>
+          </div>
+          <button type="button" class="btn btn-danger c_button">Run Effect</button>
+          <br><hr>
+
+          <!-- Animate start -->
+          <h2>plugin-13. jQuery UI Effects - Animate demo</h2>
+          <div class="toggler_2">
+            <div id="effect_2" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+              <p>
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+              </p>
+            </div>
+          </div>
+           
+          <button type="button" class="btn btn-success a_cus">Toggle Effect</button>
+          <br><br><br><hr>
+          <!-- show hide  -->
+          <h2>plugin-14. jQuery UI Effects - Show Demo</h2>
+          <div class="toggler_3">
+            <div id="effect_3" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Show</h3>
+              <p>
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+              </p>
+            </div>
+          </div>
+          <select name="effects" id="effectTypes">
+            <option value="blind">Blind</option>
+            <option value="bounce">Bounce</option>
+            <option value="clip">Clip</option>
+            <option value="drop">Drop</option>
+            <option value="explode">Explode</option>
+            <option value="fade">Fade</option>
+            <option value="fold">Fold</option>
+            <option value="highlight">Highlight</option>
+            <option value="puff">Puff</option>
+            <option value="pulsate">Pulsate</option>
+            <option value="scale">Scale</option>
+            <option value="shake">Shake</option>
+            <option value="size">Size</option>
+            <option value="slide">Slide</option>
+          </select>
+          <button class="btn btn-info custom_button">Run Effect</button>
+          <br><br><br>
+          <hr>
+          <!-- navtab -->
+          <h2>plugin-15. jQuery UI Tabs - Default functionality</h2>
+           
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+    <li><a href="#tabs-2">Proin dolor</a></li>
+    <li><a href="#tabs-3">Aenean lacinia</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+  </div>
+  <div id="tabs-2">
+    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+  </div>
+  <div id="tabs-3">
+    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+  </div>
+</div>
+
+      </div>
+    </div>
+   </section>
+
+
+
+
+
+
+
+  <!-- js linking here -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
