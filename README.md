@@ -1,2 +1,2 @@
 # jquery-ui
-html-css-boostsrap jqueryUi
+previws:https://saydurrahoman.github.io/jquery-ui/
